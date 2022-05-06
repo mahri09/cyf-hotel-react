@@ -110,8 +110,8 @@ const SearchResults = ({ searchResults }) => {
           </tr>
         </thead>
         <tbody>
-          {sortedSearchResults &&
-            sortedSearchResults.map(
+          {searchResults &&
+            searchResults.map(
               ({
                 id,
                 title,
